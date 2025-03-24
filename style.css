@@ -1,27 +1,184 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-.body{
-    background-color: #f5f5f5;
+/* .body{
+    background-color: rgba(255, 255, 255, 1);
+} */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-/* Загальні стилі */
-.header {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header_top{
+  display: flex;
+  justify-content: space-between;
   
-    padding: 10px;
+}
+
+.header_contacts_tel{
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+  font-size:20px
+
+}
+
+.header_contacts_tel{
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+  font-size:20px
+
+}
+
+.header_address_disr{
+  color: white;
+}
+
+.header_email_post{
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+  font-size:20px
+
+} 
+
+.top-bar {
+  background-color: rgba(35, 33, 75, 1);
+  color: #ecf0f1;
+  padding: 10px 0;
+}
+
+.top-bar .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar .contact-info p {
+  margin: 0;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.navigation .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #2c3e50;
+  text-decoration: none;
+}
+
+.navigation .nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation .nav-links li {
+  margin-left: 20px;
+}
+
+.navigation .nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.space{
+ color: red;
+
+}
+/* .header { */
+  /* box-sizing: border-box;
+
+  position: absolute;
+  height: 158.44px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  
+  background: #FFFFFF;
+  border: 1px solid #000000;   */
+    /* padding: 10px;
+    background-color: rgba(35, 33, 75, 1);
+  }
+
+  .header_top{
+    display: flex;
+    justify-content: space-between;
     
   }
   
-  .header__menu-container {
+
+  .header_contacts_tel{
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size:20px
+
+  }
+
+ .header_logo{
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 1);
+  
+
+ }
+
+  .header_logo_anker{
+    
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-size:20px;
+    
+  
+}
+
+.header_address_disr{
+  color: white;
+}
+
+.header_email_post{
+  text-decoration: none;
+  color: white;
+  font-weight: 1000;
+  font-size:20px
+
+} */
+  
+  /* .header__menu-container {
     position: relative;
     display: inline-block;
     display: flex;
     justify-content: space-between;
   }
   
-  /* Бургер-кнопка */
+  
   .header__menu-btn {
     background: transparent;
     border: none;
@@ -32,16 +189,16 @@
     padding: 10px;
   }
   
-  /* Стилізація смужок */
+  
   .header__menu-bar {
     display: block;
     width: 30px;
     height: 3px;
-    background: black;
+    background: white;
     transition: 0.3s;
   }
   
-  /* Меню (за замовчуванням приховане) */
+  
   .header__menu {
     list-style: none;
     padding: 0;
@@ -60,17 +217,17 @@
   
   .header__menu-link {
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
     padding: 10px;
   }
   
-  /* Показуємо меню при наведенні */
+  
   .header__menu-container:hover .header__menu {
     display: block;
   }
   
-  /* Ефект при наведенні */
+  
   .header__menu-link:hover {
     background: #ff8800;
   }
@@ -78,11 +235,11 @@
 .header_logo_anker{
     
         text-decoration: none;
-        color: #222;
+        color: white;
         font-weight: 1000;
         font-size:20px
       
-}
+} */
 
 
 
@@ -94,6 +251,7 @@
 
 .about_me_do{
     display: flex;
+    justify-content: space-between;
 }
 
 .about_me_do_title{
@@ -105,6 +263,7 @@
 }
 .what_me{
     display: flex;
+    justify-content: space-between;
     
 
 }
