@@ -1,0 +1,78 @@
+.about_sto {
+    position: relative;
+    background: url("img/remont-avto.JPG") no-repeat center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  /* Напівпрозорий фон для затемнення */
+  .about_sto::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(10, 10, 30, 0.7); /* Темний напівпрозорий шар */
+    z-index: 1;
+  }
+  
+  /* Контейнер, щоб все було по центру */
+  .about_sto__container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Заголовок */
+  .about_sto__title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Опис */
+  .about_sto__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  /* Блок кнопок */
+  .about_sto__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  /* Стилі кнопок */
+  .about_sto__btn {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .about_sto__btn--primary {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .about_sto__btn--primary:hover {
+    background: #c0392b;
+  }
+  
+  .about_sto__btn--secondary {
+    border: 2px solid white;
+    color: white;
+  }
+  
+  .about_sto__btn--secondary:hover {
+    background: white;
+    color: #333;
+  }

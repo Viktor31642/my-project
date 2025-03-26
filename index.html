@@ -1,202 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="ua">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>СТО у Вітька</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- <header class="header">
-   
-  <div class="header_top"> 
-    <div class="header_contacts">
-
-     <a class="header_contacts_tel" href="tel:+380933333333">+380933333333</a>
-    
-   </div>
-
-   <div class="header_address">
-     <p class="header_address_disr">3611 Silas Trail Suite 927
-      Port Yasmeenland, PY 20061</p>
-   </div>
-
-   <div class="header_email">
-      <a class="header_email_post" href="mailto:viktor.sto@gmail.com">viktor.sto@gmail.com</a>
-   </div>
-
-  </div>
-   
-    <div class="header_logo"> -->
-      <!-- <a class="header_logo_anker" href="index.html">
-        СТО у Вітька</a> -->
-
-        <!-- <nav class="header_nav"> 
-          <div class="header__menu-container">
-            <div class="header_logo"><a class="header_logo_anker" href="index.html">
-                 СТО у Вітька</a></div> 
-
-             <ul class="header__menu">
-               <li class="header__menu-item">
-                 <a class="header__menu-link" href="index.html">Головна</a>
-               </li>
-               <li class="header__menu-item">
-                 <a class="header__menu-link" href="about.html">Про нас</a>
-               </li>
-               <li class="header__menu-item">
-                 <a class="header__menu-link" href="contact.html">Контакти</a>
-               </li>
-             </ul>
-           </div>
-
-        </nav>
-      </div>    -->
-
- 
- <!-- 
-    <nav class="header__nav">
-      <div class="header__menu-container">
-       <div class="header_logo"><a class="header_logo_anker" href="index.html">
-            СТО у Вітька</a></div> 
-        <button class="header__menu-btn">
-          <span class="header__menu-bar"></span>
-          <span class="header__menu-bar"></span>
-          <span class="header__menu-bar"></span>
-        </button>
-        <ul class="header__menu">
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="index.html">Головна</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="about.html">Про нас</a>
-          </li>
-          <li class="header__menu-item">
-            <a class="header__menu-link" href="contact.html">Контакти</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-   -->
-<!-- </header> -->
-
-<header class="top-bar">
-  <div class="container">
-      <div class="contact-info">
-        <div class="header_top"> 
-          <div class="header_contacts">
-      
-           <a class="header_contacts_tel" href="tel:+380933333333">+380933333333</a>
-          
-         </div>
-      
-         <div class="header_address">
-           <p class="header_address_disr">3611 Silas Trail Suite 927
-            Port Yasmeenland, PY 20061</p>
-         </div>
-      
-         <div class="header_email">
-            <a class="header_email_post" href="mailto:viktor.sto@gmail.com">viktor.sto@gmail.com</a>
-         </div>
-      
-      </div>
-  </div>
-</header>
-
-<nav class="navigation">
-  <div class="container">
-      <a href="#" class="logo">АВТОСЕРВІС БІЛЛІ</a>
-      <ul class="nav-links">
-          <li><a href="#">Послуги</a></li>
-          <p class="space">/</p>
-          <li><a href="#">Про нас</a></li>
-          <p class="space">/</p>
-          <li><a href="#">Спец</a></li>
-          <p class="space">/</p>
-          <li><a href="#">Відгуки</a></li>
-          <p class="space">/</p>
-          <li><a href="#">Блог</a></li>
-          <p class="space">/</p>
-          <li><a href="#">Контакти</a></li>
-      </ul>
-  </div>
-</nav>
-</header>
+    <link rel="stylesheet" href="style.css" />
+     <link rel="stylesheet" href="header.css">
+     <link rel="stylesheet" href="section_about_sto.css">
+     <link rel="stylesheet" href="section_what_we_do.css">
+    <script
+      src="https://unpkg.com/htmx.org@1.9.10"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Хедер -->
+    <header data-hx-trigger="load" data-hx-get="header.html" data-hx-swap="outerHTML"></header>
+    <!-- Основна частина сайту -->
     <main>
- <section class="about_sto"><h1>Ремонт машин у Вітька)</h1>
- <p> СТО - це професійний сервіс з ремонту та обслуговування автомобілів. 
-     Ми пропонуємо якісні послуги, швидкий та надійний ремонт, кваліфікований
-     персонал з великою досвідом роботи. Обирайте нас і ваш автомобіль 
-     завжди буде в надійних руках.</p>
-    <button>Запис до нас</button>
-    <button>Про нас</button></section>
- </main> 
- <section>
     
-    <h2 class="about_me_do_title">Що ми робимо</h2>
-    <div class="about_me_do">
-    <div class="about_me_do_box">
-        <h3 class="about_me_do_box_title">Заміна масла та масляних фільтрів</h3>
-        
-        <img src="img/5c600e2ae692c00022c41d49_optimized_1662_c1397x929-0x109.webp" alt="change oil" width="350px">
-        
-        <p class="about_me_do_box_desc">
-            Щоб максимально захистити свій автомобіль, 
-            ви повинні регулярно міняти масло та масляний фільтр, 
-            принаймні кожні 10000 км.</p>
-            <button>Дізнатись більше</button>
-    </div>
-    <div>
-        <h3 class="about_me_do_box_title">Система охолодження</h3>
-       <img src="img/5c60133e1413f20023023f58_optimized_1396.webp" alt="change cold water" width="350px">
-        <p class="about_me_do_box_desc">Наша команда може швидко відремонтувати систему охолодження вашого двигуна: 
-            промити її, перевірити з’єднання, шланги, кришку, 
-            а також провести перевірку тиску.</p>
-        <button>Дізнатись більше</button>
-    </div>
-    <div>
-        <h3 class="about_me_do_box_title">Сервіс кондиціонерів</h3>
-        <img src="img/5c601318b004200029f474bb_optimized_1920_c1391x927-264x97.webp" alt="cold system" width="350px">
-        <p class="about_me_do_box_desc">Наші професійні майстри оглянуть кондиціонер вашого автомобіля, 
-            замінять мастило та проведуть перевірку герметичності системи.</p>
-        <button>Дізнатись більше</button>
-    </div>
- </div>
-
- </section>
- <section>
-    <h3>ЧОМУ ОБИРАЮТЬ НАС</h3>
-    <p>1. Професіоналізм із задоволенням: Наші майстри - справжні професіонали у своїй справі, 
-        які з любов'ю ставляться до кожного автомобіля. 
-        2. Мистецтво у кожному деталі: Ми вкладаємо увесь душу у кожен ремонтний процес, 
-        використовуючи тільки найякісніші матеріали та запчастини. 3. Швидкість світла: 
-        Наші експерти працюють на високих обертах, щоб ваш автомобіль міг якнайшвидше 
-        повернутися на дорогу. 4. "Цінуйте кожну копійку": Наші ціни - 
-        це вигідна і правильна інвестиція у довгострокову безпеку та ефективність вашого 
-        транспортного засобу. 5. Персоналізований сервіс: Ми віддані вашим потребам та бажанням,
-         створюючи унікальні рішення для кожного клієнта.</p>
-         
-         <div class="what_me">
-         <div>
-          <p>Дружнє та чесне обслуговування</p>
-         </div>
-         <div>
-            <p>Гарантія 12 місяців/10 000 кілометрів</p>
-         </div>
-         <div>
-             <p>Зручна зона очікування з безкоштовним Wi-Fi</p>
-         </div>
-        </div>
-        <div class="what_me">
-        <div>
-             <p>Технічні спеціалісти, сертифіковані ASE</p>
-         </div>
-         <div>
-             <p>Аварійний ремонт автомобіля 24/7</p>
-         </div>
-         <div>
-            <p>Клієнти довіряють нам уже понад 5 років</p>  
-         </div>
-        </div>
- </section>
-</body>
+      <section data-hx-trigger="load" data-hx-get="section_about_sto.html" data-hx-swap="outerHTML"></section>
+      <section data-hx-trigger="load" data-hx-get="section_what_we_do.html" data-hx-swap="outerHTML"></section>
+    
+    
+    </main>
+  </body>
 </html>

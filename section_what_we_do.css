@@ -1,0 +1,105 @@
+/* ===== Основна стилізація секції ===== */
+.services {
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  /* Заголовок */
+  .services__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .services__accent {
+    color: #e74c3c;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  /* Контейнер для карточок */
+  .services__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Блок з карточками */
+  .services__wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto; /* Горизонтальний скролл */
+    scroll-snap-type: x mandatory; /* Фіксує прокрутку по карточках */
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    width: 900px; /* Фіксуємо ширину контейнера, щоб вміщалось рівно 3 карточки */
+  }
+  
+  .services__wrapper::-webkit-scrollbar {
+    height: 8px;
+  }
+  
+  .services__wrapper::-webkit-scrollbar-thumb {
+    background: #e74c3c;
+    border-radius: 4px;
+  }
+  
+  /* Карточка сервісу */
+  .service-card {
+    background: #fff;
+    width: 280px; /* Фіксована ширина кожної карточки */
+    flex-shrink: 0; /* Забороняємо змінювати розмір */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    text-align: left;
+    scroll-snap-align: center; /* Фіксація карточок */
+  }
+  
+  .service-card__img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  .service-card__title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+  }
+  
+  .service-card__text {
+    font-size: 16px;
+    padding: 0 15px;
+    color: #555;
+  }
+  
+  .service-card__link {
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e74c3c;
+    padding: 10px 15px;
+    transition: color 0.3s;
+  }
+  
+  .service-card__link:hover {
+    color: #c0392b;
+  }
+  
+  /* Кнопки навігації */
+  .services__arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s;
+  }
+  
+  .services__arrow:hover {
+    color: #e74c3c;
+  }
