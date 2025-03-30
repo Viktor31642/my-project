@@ -1,0 +1,40 @@
+.process {
+    text-align: center;
+    background-color: #f6f6f6;
+    padding: 40px 0;
+  }
+  
+  .process__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a1a2e;
+    margin-bottom: 20px;
+  }
+  
+  .process__title-line {
+    color: #ff4d4d;
+    font-size: 28px;
+  }
+  
+  .process__steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .process__step {
+    text-align: center;
+  }
+  
+  .process__step-number {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff4d4d;
+  }
+  
+  .process__step-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a2e;
+  }
+  

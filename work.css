@@ -1,0 +1,22 @@
+.work {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .work__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #1b1e23;
+  }
+  
+  .work__title-line {
+    color: red;
+  }
+  
+  .work__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
