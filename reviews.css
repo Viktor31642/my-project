@@ -7,9 +7,14 @@
 
 .reviews-title {
     font-size: 36px;
-    color: #ff0000;
+    color: black;
     margin-bottom: 30px;
 }
+
+.process__title-line {
+    color: #ff4d4d;
+    font-size: 28px;
+  }
 
 .reviews_list{
     display: flex;
@@ -17,28 +22,36 @@
 }
 
 .review {
-    margin: 20px auto;
-    max-width: 600px;
+    margin-left: 20px;
+    /* max-width: 600px; */
+    width: 200px; 
+    height: 400px;
     padding: 15px;
     background-color: #23214b;
-    border-radius: 10px;
+    
 }
 
-.review p {
+.review_disc {
+    font-size: 16px;
     margin: 10px 0;
-    color: #f4f4f4;
-}
+    color: #f4f4f4;}
 
-.reviews-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #ff0000;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.reviews-button:hover {
-    background-color: #cc0000;
-}
+    .button-outline {
+        
+        display: inline-block;
+        margin-top: 30px;
+        padding: 12px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black; /* Колір тексту */
+        border: 2px solid black; /* Білий контур */
+        
+        background-color: transparent; /* Прозорий фон */
+        transition: 0.3s;
+      }
+      
+      .button-outline:hover {
+        background-color: white; /* Фон білий при наведенні */
+        color: black; /* Колір тексту чорний при наведенні */
+      }
