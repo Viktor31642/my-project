@@ -1,0 +1,44 @@
+.reviews {
+    text-align: center;
+    padding: 20px;
+    
+    color: white;
+}
+
+.reviews-title {
+    font-size: 36px;
+    color: #ff0000;
+    margin-bottom: 30px;
+}
+
+.reviews_list{
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 15px;
+    background-color: #23214b;
+    border-radius: 10px;
+}
+
+.review p {
+    margin: 10px 0;
+    color: #f4f4f4;
+}
+
+.reviews-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews-button:hover {
+    background-color: #cc0000;
+}

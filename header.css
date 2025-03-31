@@ -25,10 +25,16 @@
     color: white;
   }
 
+  .header__contact:hover
+  {color: #d53f3f;}
+
   .header__email {
     text-decoration: none;
     color: white;
   }
+
+  .header__email:hover
+  {color: #d53f3f;}
   
   
   /* Нижній блок */

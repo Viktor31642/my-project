@@ -1,0 +1,27 @@
+.photo{
+    padding-top: 40px;
+    background-color: #f9f9f9;
+}
+
+.why-choose-us__title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+  
+  .why-choose-us__title-line {
+    color: red;
+  }
+  .photo_conteiner{
+    display: flex;
+    justify-content: center;
+  }
+  .photo_img_picture{
+    width: 500px;
+  }
+
+  .photo_conteiner_img{
+    margin-right: 20px;
+  }
