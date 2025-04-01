@@ -40,6 +40,17 @@
   .hero__button:hover {
     background-color: darkred;
   }
+
+  @media (max-width: 765px){
+    .hero__container{
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .hero__button{
+      margin-top: 15px;
+    }
+  }
   
 
   

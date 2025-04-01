@@ -2,6 +2,7 @@
     text-align: center;
     background-color: #f6f6f6;
     padding: 40px 0;
+   
   }
   
   .process__title {
@@ -37,4 +38,10 @@
     font-weight: 600;
     color: #1a1a2e;
   }
-  
+
+  @media (max-width: 768px){
+    .process__steps{
+      flex-direction: column;
+      text-align: center;
+    }
+  }

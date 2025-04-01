@@ -25,3 +25,13 @@
   .photo_conteiner_img{
     margin-right: 20px;
   }
+
+  @media (max-width: 765px) {
+    .photo_conteiner{
+      flex-direction: column;
+    }
+
+    .photo_img_picture{
+      width: 250px;
+    }
+  }

@@ -55,3 +55,13 @@
         background-color: white; /* Фон білий при наведенні */
         color: black; /* Колір тексту чорний при наведенні */
       }
+
+      @media (max-width: 765px) {
+        .reviews_list{
+            flex-direction: column;
+        }
+
+        .review {
+            margin-top: 15px;
+        }
+      }
