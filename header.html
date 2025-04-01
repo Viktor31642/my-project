@@ -1,5 +1,74 @@
 <header class="header">
+
+<!-- хедер для великих екранів -->
+<div class="header_for_big_display">
   <!-- Верхній блок з контактами -->
+  <div class="header__top_for_big_display">
+      <a class="header__contact_for_big_display" href="tel:+380933333333">+380933333333</a>
+    <p class="header__address_for_big_display">
+      3611 Silas Trail Suite 927 <br />Port Yasmeenland, PY 20061
+    </p>
+    <a class="header__email_for_big_display" href="mailto:viktor.sto@gmail.com">viktor.sto@gmail.com</a>
+  </div>
+  
+
+  <!-- Нижній блок з логотипом і навігацією -->
+  <div class="header__bottom_for_big_display">
+   <a class="header__logo_for_big_display" href="index.html">СТО у Вітька</a>
+    <nav class="nav_for_big_display">
+      <ul class="nav__list_for_big_display">
+        <li class="nav__item_for_big_display nav__item--dropdown_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Послуги ▼</a>
+          <ul class="nav__dropdown_for_big_display">
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Діагностика</a>
+            </li>
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Ремонт</a>
+            </li>
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Тюнінг</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__separator_for_big_display">/</li>
+        <li class="nav__item_for_big_display nav__item--dropdown_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Про нас ▼</a>
+          <ul class="nav__dropdown_for_big_display">
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Наша команда</a>
+            </li>
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Історія</a>
+            </li>
+            <li class="nav__dropdown-item_for_big_display">
+              <a href="#" class="nav__dropdown-link_for_big_display">Наша робота</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__separator_for_big_display">/</li>
+        <li class="nav__item_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Спец</a>
+        </li>
+        <li class="nav__separator_for_big_display">/</li>
+        <li class="nav__item_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Відгуки</a>
+        </li>
+        <li class="nav__separator_for_big_display">/</li>
+        <li class="nav__item_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Блог</a>
+        </li>
+        <li class="nav__separator_for_big_display">/</li>
+        <li class="nav__item_for_big_display">
+          <a href="#" class="nav__link_for_big_display">Контакти</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+<!-- Хедер для малих екранів -->
+  <!-- Верхній блок з контактами -->
+  <div class="header_for_small_display">
   <div class="header__top">
     <a class="header__contact" href="tel:+380933333333">+380933333333</a>
     <p class="header__address">
@@ -11,7 +80,7 @@
   <!-- Нижній блок з логотипом і навігацією -->
   <div class="header__bottom">
     <a class="header__logo" href="index.html">СТО у Вітька</a>
-
+    
     <!-- Checkbox для бургер-меню -->
     <input type="checkbox" id="nav-toggle" class="nav__checkbox">
     <label for="nav-toggle" class="nav__burger" aria-label="Меню">
@@ -36,4 +105,5 @@
       </ul>
     </nav>
   </div>
+</div>
 </header>

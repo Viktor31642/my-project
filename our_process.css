@@ -39,7 +39,7 @@
     color: #1a1a2e;
   }
 
-  @media (max-width: 768px){
+  @media (max-width: 426px){
     .process__steps{
       flex-direction: column;
       text-align: center;

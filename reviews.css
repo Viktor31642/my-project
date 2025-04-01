@@ -56,9 +56,10 @@
         color: black; /* Колір тексту чорний при наведенні */
       }
 
-      @media (max-width: 765px) {
+      @media (max-width: 426px) {
         .reviews_list{
             flex-direction: column;
+            align-items: center;
         }
 
         .review {

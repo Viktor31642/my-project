@@ -56,7 +56,7 @@
     max-width: 200px;
   }
   
-  @media (max-width: 768px)
+  @media (max-width: 426px)
   {
     .why-choose-us__list {
       flex-direction: column;
